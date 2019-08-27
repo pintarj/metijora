@@ -1,3 +1,13 @@
+# Ignoring IDEA 
+.idea/
+
+# Ignoring vscode
+.vscode/
+
+# Just ignore these dirs
+ignore/
+ignored/
+
 # Logs
 logs
 *.log
