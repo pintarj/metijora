@@ -1,6 +1,6 @@
 {
   "name": "metijora",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A collection of generic response interfaces for Node.js",
   "main": "lib/index.js",
   "files": [
