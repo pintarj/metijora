@@ -2,14 +2,14 @@
   "name": "metijora",
   "version": "0.1.1",
   "description": "A collection of generic response interfaces for Node.js",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "clean:lib": "rm -rf lib/",
+    "clean:dist": "rm -rf dist/",
     "prepare": "npm run build",
     "prepublishOnly": "npm test",
     "postversion": "git push && git push --tags"
