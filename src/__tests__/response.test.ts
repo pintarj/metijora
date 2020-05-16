@@ -1,4 +1,4 @@
-import {Response} from '../index';
+import {Response} from '../../dist';
 
 test('base', () => {
     const x: Response = {

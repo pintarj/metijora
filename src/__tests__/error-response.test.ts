@@ -1,4 +1,4 @@
-import {ErrorResponse} from '../index';
+import {ErrorResponse} from '../../dist';
 
 test('base', () => {
     const x: ErrorResponse = {

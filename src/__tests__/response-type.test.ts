@@ -1,4 +1,4 @@
-import {getResponseType, isErrorResponseType, ResponseType} from '../index';
+import {getResponseType, isErrorResponseType, ResponseType} from '../../dist';
 
 test('getResponseType', () => {
     expect(getResponseType({status: 200})).toBe(ResponseType.SUCCESS);

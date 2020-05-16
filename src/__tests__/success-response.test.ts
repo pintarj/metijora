@@ -1,4 +1,4 @@
-import {SuccessResponse} from '../index';
+import {SuccessResponse} from '../../dist';
 
 interface User {
     id: number;
